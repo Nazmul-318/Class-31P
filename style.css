@@ -1,0 +1,239 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Start Header Section */
+
+.header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.header span {
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    height: 43px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+}
+
+.menu .nav-link {
+    padding-left: 25px !important;
+    padding-right: 15px !important;
+}
+
+.btn-hov:hover {
+    box-shadow: 1px 1px 10px 1px #6278df;
+}
+
+/* Start Slider Section */
+
+.slider-section {
+    background: url(img/cover.jpg) rgba(0, 0, 0, 0.6) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    background-blend-mode: overlay;
+}
+
+.slider-caption h4 {
+    margin-bottom: 35px;
+    font-size: 27px;
+    color: white;
+    font-weight: 300;
+}
+
+.slider-caption h2 {
+    margin-bottom: 50px;
+    font-size: 46px;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.slider-caption .btn {
+    background: #3335a5;
+    border-color: #3335a5;
+    color: #fff !important;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.slider-caption .btn:hover {
+    background-color: #fff;
+    color: black !important;
+    box-shadow: 1px 1px 10px 1px #3335a5c5;
+}
+
+.slider-caption .form-control {
+    padding: 18px 20px;
+}
+
+
+/* Start About Section  */
+
+.about-section {
+    background: #f7f9ff;
+}
+
+.about-text-left {
+    margin-top: 120px;
+
+}
+
+.about-text-left .lead {
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+/* Start Feature Section  */
+
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    transition: all .5s;
+    transform: translateX(0);
+}
+
+.feature-item:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.7);
+    transform: translateX(-7px);
+}
+
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-test-sec {
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+/* Start Portolio section  */
+
+.portfolio-item a {
+    position: relative;
+    display: block;
+}
+
+.portfolio-item a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223, .3);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.portfolio-item:hover a::after {
+    opacity: 1;
+    visibility: visible;
+    box-shadow: 1px 1px 30px 0 #000;
+}
+
+
+/* Start Pricing table */
+
+.pricing-item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    border-radius: 5px;
+}
+.pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-item ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-item ul li span {
+    color: #657be0;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+.pricing-item-button a {
+    border-color: #657be0;
+    border-width: 2px;
+    color: #657be0;
+    padding: 14px 30px;
+    font-size: 22px;
+    box-shadow: 2.5px 4.33px 30px 1px rgba(64,87,191,0.2);
+}
+
+/* Start Testimonial Section  */
+
+.author-info {
+    width: 220px;
+    margin: auto;
+}
+.author-info img {
+    width: 85px;
+    margin-right: 18px;
+    margin-bottom: 5px;
+}
+.user-details {
+    text-align: center;   
+}
+
+/* Start About Section  */
+
+.about-item {
+    margin-top: 90px;
+}
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+/* Start Contact Section */
+
+.contact-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 40px;
+}
+
+/* Start Footer section */
+
+.min-section-bg{
+    background-color: #f7f9ff;
+    
+}
